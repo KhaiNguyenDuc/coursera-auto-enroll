@@ -107,7 +107,6 @@ if __name__ == "__main__":
             key, value = pair.split('=', 1)  # Split each pair into key and value, using the first '=' occurrence
             cookies[key] = value
 
-    print(cookies)
     thread_count = 5
     with open('thread.txt', 'r') as rawdata:
         thread_count = int(rawdata.read().split("=")[1])

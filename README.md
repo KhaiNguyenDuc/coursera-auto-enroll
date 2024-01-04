@@ -6,9 +6,7 @@ Welcome to [Your Python Library Name]! This library does [brief description].
 1. [Prerequisites](#prerequisites)
 2. [Installation](#installation)
    - [Step 1: Install Python](#step-1-install-python)
-   - [Step 2: Set up Virtual Environment](#step-2-set-up-virtual-environment)
-   - [Step 3: Activate Virtual Environment](#step-3-activate-virtual-environment)
-   - [Step 4: Install the Library](#step-4-install-the-library)
+   - [Step 2: Install the library](#step-2-install-the-library)
 3. [Usage](#usage)
 
 
@@ -27,35 +25,16 @@ Follow these steps to set up and install [Your Python Library Name]:
 
 Download and install Python from the official website: [Python Downloads](https://www.python.org/downloads/)
 
-### Step 2: Set up Virtual Environment
+### Step 2: Install the library
 
-Open a terminal or command prompt and navigate to your project directory:
-
+Install the library: 
 ```bash
-cd path/to/your/project
+git clone https://github.com/KhaiNguyenDuc/coursera-auto-enroll
 ```
 
-Create a virtual environment (replace venv with your preferred name):
+Install the requirement: 
 ```bash
-python -m venv venv
-```
-
-Activate the virtual environment:
-
-On windows:
-```
-venv\Scripts\activate
-```
-
-On Mac:
-```
-source venv/bin/activate
-```
-
-With the virtual environment active, install the library using pip:
-```
-pip install git+https://github.com/KhaiNguyenDuc/coursera-auto-enroll
-
+pip install requirement.txt
 ```
 
 ## Usage
@@ -63,9 +42,12 @@ pip install git+https://github.com/KhaiNguyenDuc/coursera-auto-enroll
 Login in coursera with your bussiness account
 
 Using F12 ( dev tool ) and search for below API:
+
 ![image](https://github.com/KhaiNguyenDuc/coursera-auto-enroll/assets/71761537/b9a9f076-54b2-4c0a-82cf-e23f08ee6adf)
 
+
 Under headers tab, get all cookies:
+
 ![image](https://github.com/KhaiNguyenDuc/coursera-auto-enroll/assets/71761537/849f2579-d6a8-4a2c-8b46-2d7aa7ab2f10)
 
 Passing all of your cookies inside cookies.txt
