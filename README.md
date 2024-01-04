@@ -61,3 +61,6 @@ python main.py
 ```
 
 Your account will automatically enroll for all available code, wait some time :D
+
+![image](https://github.com/KhaiNguyenDuc/coursera-auto-enroll/assets/71761537/63948505-475d-4fae-af54-364c51978f52)
+
